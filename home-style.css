@@ -1,0 +1,383 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+
+/* Started Navigation Bar Section*/
+
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: whitesmoke;
+	position: fixed;
+	z-index: 1;
+}
+.nav-icon{
+	right: 0;
+	display: none;
+}
+
+header div{
+	float: left;
+	justify-content: space-between;
+}
+
+.logo-head img{
+	width: 100px;
+	margin: 15px 120px;
+
+}
+
+.nav-head{
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.nav-head ul{
+	list-style: none;
+	margin-right: 150px;
+	padding:30px
+
+}
+.nav-head ul li{
+	float: left;
+	
+
+}
+.nav-head ul li a{
+	text-decoration: none;
+	padding: 25px;
+	color: #333;
+
+
+}
+.nav-head ul li :hover{
+	color: #333;
+	border-radius: 5px;
+	color: darkred;
+}
+
+.dropdown{
+	position: absolute;
+	display:block;
+}
+.dropdown li{
+	width: 270px;
+	padding: 20px 0px 20px 0px;
+	display: none;
+	background-color: whitesmoke;
+	border-bottom: 0.5px solid #666;
+}
+
+.nav-head li:hover .dropdown li{
+	display: block;
+	
+	
+}
+
+
+/* Finished Navigation Bar Section*/
+
+/* ------------------------Start Body Section---------------------------*/
+
+
+.body-main{
+	background-image: url("logo/1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+
+	
+}
+.text-body{
+
+	padding: 200px;
+}
+.text-body p{
+	color: white;
+	font-size: 30px;
+	text-shadow: 5px 5px 5px black;
+	margin-top: 20px;
+	letter-spacing: 5px;
+
+}
+.text-body h1{
+	color: white;
+	font-size: 70px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 5px black;
+
+}
+.text-body input{
+	color: white;
+	width: 200px;
+	cursor: pointer;
+	background-color: #FF0100;
+	border: none;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.text-body .Contact-btn{
+	background-color: white;
+	color: #333;
+	margin-left: 20px;
+}
+
+.text-body input:hover{
+	background-color: white;
+	color: #333;
+	transition: 1s;
+}
+.text-body .Contact-btn:hover{
+	background-color: #FF0100;
+	color: white;
+	transition: 1s;
+
+}
+/* ------------------------Finished Body Section---------------------------*/
+
+/* ------------------------Start About Us Section---------------------------*/
+
+.body-text{
+	background-color: whitesmoke;
+}
+.body-text h1{
+	text-align: Center;
+	color: #1a1a1a;
+	text-transform: uppercase;
+	padding: 40px 0px 10px 0px;
+}
+.body-text p{
+	color: #333;
+	padding: 10px 100px 10px 100px;
+	text-align: justify;
+}
+.body-text p b, em{
+	color: Blue;
+	font-family: 'Dancing Script', cursive;
+	
+}
+/* ------------------------Finished About Us Section---------------------------*/
+
+.body-box{
+	padding: 10px 100px 10px 90px;
+	display: flex;
+}
+.body-box div{
+	width: 350px;
+	height: 360px;
+	border: 1px solid #ccc;
+	margin: 10px 0px 10px 40px;
+	text-align: center;
+}
+.body-box div img{
+	padding: 5px;
+	width: 340px;
+
+}
+.body-box div h1{
+	color: #666;
+	font-size: 20px;
+	padding-top: 10px;
+}
+.body-box div p{
+	color: #333;
+	padding: 20px;
+	text-align: justify;
+}
+
+/*-----------------Start Concerns Section----------------*/
+
+.Body-cons{
+	background-color: Black;
+	text-align: center;
+}
+.Body-cons h1{
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+	text-transform: uppercase;
+	text-shadow: 2px 1px 5px whitesmoke;
+
+}
+/*-----------------Start THE STORYLINES OF HAPPINES Section----------------*/
+.body-happy{
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+	
+	
+}
+.happy-box{
+	display: flex;
+
+
+}
+.body-happy h1{
+	text-align: center;
+	color: #333;
+	padding: 20px;
+	background-color: ;
+}
+.body-happy div{
+	height: Auto;
+	border: 1px solid none;
+	
+}
+.happy-text{
+	width: 55%;
+	height: auto;
+	background-color: white;
+
+}
+.happy-text p{
+	text-align: justify;
+	color: #333;
+	font-size: 20px;
+	padding: 10px 100px 20px 100px;
+
+}
+.happy-text p b{
+	color: Blue;
+	font-family: 'Dancing Script', cursive ;
+	font-size: 25px;
+}
+.happy-value{
+	width: 45%;
+	height: auto;
+	background-color:#00334d;
+}
+
+.happy-value h2, h4{
+	color: Gold;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.happy-value h2{
+	padding: 10px;
+	font-size: 50px;
+	border-bottom: 2px solid #333;
+
+}
+.happy-value h4{
+	
+	padding: 5px;
+
+}
+
+
+
+
+
+
+/*-----------------Start Footer Section----------------*/
+
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #28344C;
+	display: flex;
+	padding: 10px 100px 10px 100px;
+}
+
+footer div{
+	width: 450px;
+	height: auto;
+	border: 1px solid none;
+
+}
+
+footer div h2{
+	color: white;
+	text-align: left;
+	padding: 20px;
+}
+footer div p{
+	color: white;
+	
+}
+
+.logo-side p{
+	padding:20px;
+}
+
+.address-side i{
+	padding-right: 10px;
+	font-size: 25px;
+	color: red;
+}
+.address-side p{
+	padding: 20px 20px 5px 20px;
+
+}
+.link-side{
+	text-align: left;
+	
+}
+.link-side h2{
+	text-align: left;
+	padding-left: 20px;
+}
+.link-side li{
+	list-style: none;
+	padding-top: 15px;
+	padding-left: 20px;
+
+}
+.link-side li a:hover{
+	color: red;
+}
+.link-side li a{
+	text-decoration: none;
+	color: white;
+
+}
+.logo-side b{
+	color: red;
+	cursor: pointer;
+}
+.logo-side span{
+	display: none;
+}
+
+.copyright{
+	width: 100%;
+	height: auto;
+	background-color: #28344C;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	padding-top: 40px;
+}
+
+footer div h5{
+	width: 150px;
+	height: 2px;
+	background-color: red;
+	margin-left: 20px;
+}
+.icon-btn{
+	padding: 20px;
+}
+.icon-btn i{
+	padding-left: 30px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+}
